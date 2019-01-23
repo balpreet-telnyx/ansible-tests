@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars:
+    var: "Hello"
+
+  tasks:
+  - name: Testing things
+    debug:
+      msg: "Does this work? If yes, say var "
